@@ -1,4 +1,6 @@
 .babelrc
 .eslintrc
+/media
+index.js
 package-lock.json
 webpack.config.js
