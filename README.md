@@ -1,6 +1,6 @@
 # react-flying-objects
 
-A React package to make your object/s fly :)
+A lightweight React package to make your object/s fly :)
 
 ![Demo](media/example.gif)
 
