@@ -1,0 +1,42 @@
+{
+  "name": "react-fly",
+  "version": "1.0.0",
+  "description": "A React package to make your object/s fly :)",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npx babel index.js --out-file lib/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/plugin-transform-react-jsx": "^7.12.17"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0",
+    "react-native-web": ">=0.15.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turkus/react-fly.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "fly",
+    "flying",
+    "objects",
+    "emoji",
+    "animation",
+    "animated-emoji"
+  ],
+  "author": "turkus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turkus/react-fly/issues"
+  },
+  "homepage": "https://github.com/turkus/react-fly#readme"
+}
