@@ -1,4 +1,4 @@
-# react-fly
+# react-flying-objects
 
 A React package to make your object/s fly :)
 
@@ -11,7 +11,7 @@ A React package to make your object/s fly :)
 
 ## INSTALLATION
 
-`npm install --save react-fly`
+`npm install --save react-flying-objects`
 
 ## PURPOSE
 
@@ -34,7 +34,7 @@ In my demo example I show you one of my [example input objectConfig](examples/fl
 import { useMemo, useState } from 'react'
 import { Easing } from 'react-native-web'
 import { Emoji, Picker } from 'emoji-mart'
-import Fly from 'react-fly'
+import Fly from 'react-flying-objects'
 
 import 'emoji-mart/css/emoji-mart.css'
 
