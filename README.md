@@ -23,10 +23,10 @@ We have many great libraries that give that opportunity, but the reason I wrote 
 You have to think about like an html container, where css is the ruler.
 We can assume we have so many anmimations as we can imagine.
 
-In this library I use most common function of React Native lib which is [Animated.timing()](https://reactnative.dev/docs/animated#timing). As you can see there, you can use all those props including the one I added called in my package called `fromValue`. Which means "the point" we start.
+In this library I use most common function of React Native lib which is [Animated.timing()](https://reactnative.dev/docs/animated#timing). As you can see there, you can use all those props including the one I added in my package called `fromValue`. Which means "the point" we start.
 All the keys of `objectConfig` should be a valid names of the React Native [styles](https://github.com/vhpoet/react-native-styling-cheat-sheet). So called "React" camelCased styles .
 
-In my demo example I show you one of my [example input objectConfig](examples/flying-emoji.js). If you'd have your own great examples, please share them by commiting in the [examples section](examples/).
+In my demo I show you one of my [example input objectConfig](examples/flying-emoji.js). If you'd have your own great examples, please share them by commiting in the [examples section](examples/).
 
 ## WORKING EXAMPLE USING [emoji-mart](https://www.npmjs.com/package/emoji-mart)
 

@@ -1,5 +1,6 @@
 .babelrc
 .eslintrc
+/examples
 /media
 index.js
 package-lock.json

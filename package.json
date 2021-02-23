@@ -1,6 +1,6 @@
 {
   "name": "react-flying-objects",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React package to make your object/s fly :)",
   "main": "lib/index.js",
   "scripts": {
