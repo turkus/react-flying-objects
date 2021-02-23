@@ -30,7 +30,7 @@ In my demo I show you one of my [example input objectConfig](examples/flying-emo
 
 ## WORKING EXAMPLE USING [emoji-mart](https://www.npmjs.com/package/emoji-mart)
 
-```
+```jsx
 import { useMemo, useState } from 'react'
 import { Easing } from 'react-native-web'
 import { Emoji, Picker } from 'emoji-mart'
