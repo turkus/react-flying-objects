@@ -1,7 +1,7 @@
 {
   "name": "react-flying-objects",
-  "version": "1.0.4",
-  "description": "A React package to make your object/s fly :)",
+  "version": "1.0.5",
+  "description": "A lightweight React package to make your object/s fly :)",
   "main": "lib/index.js",
   "scripts": {
     "build": "npx babel index.js --out-file lib/index.js"
