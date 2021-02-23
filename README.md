@@ -2,7 +2,7 @@
 
 A React package to make your object/s fly :)
 
-[![Demo](media/example.jpg)](media/example.mp4)
+![Demo](media/example.gif)
 
 
 ## DEPENDENCIES
