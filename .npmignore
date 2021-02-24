@@ -2,6 +2,7 @@
 .eslintrc
 /examples
 /media
-index.js
+/src
 package-lock.json
+tsconfig.json
 webpack.config.js
