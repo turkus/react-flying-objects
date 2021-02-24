@@ -109,4 +109,6 @@ export default App
 
 See it on [CodeSandbox](https://codesandbox.io/s/quizzical-stonebraker-miyxq).
 
-Hope you enjoy!
+## WHAT'S NEXT?
+
+- resign from the react-native-web peerDependency
