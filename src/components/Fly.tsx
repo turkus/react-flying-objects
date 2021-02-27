@@ -1,12 +1,10 @@
 import React, {
   useEffect, useRef,
 } from 'react'
-import PropTypes from 'prop-types'
 import { View } from 'react-native-web'
 
 import { ObjectConfig } from 'types'
-import proptypes from 'proptypes'
-import FlyingObject from 'components/FlyingObject'
+import FlyingObject from './FlyingObject'
 
 interface FlyProps {
   flyingObjects: React.ReactNode[],
@@ -15,7 +13,7 @@ interface FlyProps {
   setFlyingObjects(prev: React.ReactNode[]): React.ReactNode[],
 }
 
-const Fly: React.SFC<FlyProps> = ({
+const Fly: React.FC<FlyProps> = ({
   flyingObjects,
   objectConfig,
   objectToFly,
@@ -54,13 +52,6 @@ const Fly: React.SFC<FlyProps> = ({
       { flyingObjects }
     </View>
   )
-}
-
-Fly.propTypes = {
-  flyingObjects: PropTypes.arrayOf(PropTypes.node).isRequired,
-  objectToFly: PropTypes.node.isRequired,
-  objectConfig: proptypes.objectConfigShape.isRequired,
-  setFlyingObjects: PropTypes.func.isRequired,
 }
 
 export default Fly
